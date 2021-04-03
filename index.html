@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Baloon Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="balloon balloon-violet">
+
+    </div>
+
+
+    <div class="score-block">
+        <p>You popped <span class="score">0</span> balloons</p>
+    </div>
+
+
+    <div class="shadowContainer">
+        <div class="popupContainer">
+            <div class="popup win">
+                <h4>Congratulations</h4>
+                <img src="images/baloon-happy.jpg" alt="Winner">
+                <h4>You popped <span class="score"></span> baloons.</h4>
+                <p>You are a champion!</p>
+                <button class="restart">Play again</button>
+            </div>
+            <div class="popup lose">
+                <h4>Sorry</h4>
+                <img src="images/baloon-sad.png" alt="Looser">
+                <h4>You popped <span class="score">0</span> baloons.</h4>
+                <p>Play again?</p>
+                <button class="restart">Yes</button>
+            </div>
+        </div>
+    </div>
+    <audio src="sounds/bg-music.mp3" autoplay loop></audio>
+    <script src="js/script.js"></script>
+</body>
+</html>
