@@ -1,0 +1,78 @@
+body {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.score-block {
+    background-color: #efefef;
+    width: 300px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 150px);
+}
+
+.shadowContainer {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+}
+
+.popupContainer {
+    background-color: #fff;
+    padding: 10px 100px 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.lose {
+    display: none;
+}
+
+.win {
+    display: none;
+}
+
+.balloon {
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    top: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.balloon-blue {
+    background-image: url(../images/balloon-blue.png);
+}
+
+.balloon-green {
+    background-image: url(../images/balloon-green.png);
+}
+
+.balloon-yellow {
+    background-image: url(../images/balloon-yellow.png);
+}
+
+.balloon-red {
+    background-image: url(../images/balloon-red.png);
+}
+
+.balloon-violet {
+    background-image: url(../images/balloon-violet.png);
+}
