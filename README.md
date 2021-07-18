@@ -1,5 +1,5 @@
 # js-baloon-game
-Simple JavaScript baloon shooting game. 
+Simple JavaScript balloon shooting game. 
 Shoot 100 baloons to win.
 
 Gameplay:
